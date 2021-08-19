@@ -13,6 +13,7 @@ main {
 h1{
     font-family: 'Playfair Display', serif;
     font-size: 44px;
+    font-weight: normal;
 }
 
 h2{
@@ -26,6 +27,7 @@ h3{
     font-weight: medium;
 }
 
+/*
 .promo {
     padding: 0;
     background-color: #AE7C78;
@@ -36,15 +38,32 @@ h3{
     margin: 0;
 }
 
-.contacts {
+.contact1s {
+    margin-left: 0px;
     height: 644px;
+    max-height: 644px;
     background-color: #F7FAFC;
-    background-image: url("files/map.png");
-    background-repeat: no-repeat;
-    background-position: top left;
+}
+
+.contact1s img {
+    margin-left: 0px;
+    padding: 0;
 }
 
 .contacts-text {
+    margin: -50px auto auto 102px;
+    padding: 40px 108px 64px 35px;
+    color: #AE7C78;
+    background-color: #FF0000;
+    border-radius: 12px;
+    max-width: 386px;
+    width: 386px;
+    max-height: 520px;
+    height: 520px;
+    z-index: -1;
+}
+
+.contact1s-text {
     margin: 50px auto auto 102px;
     padding: 40px 108px 64px 35px;
     color: #AE7C78;
@@ -52,20 +71,10 @@ h3{
     border-radius: 12px;
     max-width: 386px;
     width: 386px;
+    max-height: 520px;
+    height: 520px;
 
 }
-
-/*
-.contacts-text h3{
-    font-size: 16px;
-    font-weight: regular;
-}
-
-.contacts-text p{
-    font-size: 16px;
-    font-weight: medium;    
-}
-*/
 
 .page-header {
     margin-top: 24px;
@@ -86,7 +95,7 @@ h3{
     margin: 0 auto;
 }
 
-
+/*
 nav.menu ul {
     margin: 0;
     margin-left: 130px;
@@ -98,3 +107,4 @@ nav.menu ul {
     display: inline-block;
     margin-right: 1em;
 }
+*/
